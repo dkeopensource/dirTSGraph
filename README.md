@@ -60,10 +60,12 @@ python3.8 WholeLC.py
 3. For SubLC:
 ```
 python3.8 SubLC.py
+```
 
 4. For self-attention:
 ```
 python3.8 SAscore.py
+```
 
 All the logs will be saved in `logs/`
 ```
