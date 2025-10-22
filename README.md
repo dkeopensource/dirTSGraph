@@ -26,7 +26,7 @@ First, prepare the dataset with (the generated dataset is already available in t
 python3.6 create_dataset.py
 ```
 
-Second, compute the dtw matrix for **Coffee** (the dtw matrix is already available in this repository). We used the pydtw implementation from https://github.com/daochenzha/pydtw.git, and we extended it by adding a lagged correlation(LC) computation feature.
+Second, compute the dtw matrix for **Coffee** (the dtw matrix is already available in this repository). We used the pydtw implementation from https://github.com/daochenzha/pydtw.git, and we extended it by adding lagged correlation(LC) and self-attention computation features.
 ```
 python3.6 create_dtw.py
 ```
